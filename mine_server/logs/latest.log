@@ -1,0 +1,187 @@
+[14:59:00] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:59:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:59:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:59:00] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:59:00] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:59:01] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[14:59:01] [Server thread/INFO]: Loading properties
+[14:59:01] [Server thread/INFO]: Default game type: SURVIVAL
+[14:59:01] [Server thread/INFO]: Generating keypair
+[14:59:01] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_221]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at uk$2.run(SourceFile:109) [server.jar:?]
+[14:59:02] [Server thread/INFO]: Starting Minecraft server on 25.19.155.107:25565
+[14:59:02] [Server thread/INFO]: Using default channel type
+[14:59:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:59:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:59:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:59:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:59:03] [Server thread/INFO]: Preparing level "world"
+[14:59:03] [Server thread/INFO]: Reloading ResourceManager: Default
+[14:59:04] [Server thread/INFO]: Loaded 6 recipes
+[14:59:05] [Server thread/INFO]: Loaded 811 advancements
+[14:59:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:59:09] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:09] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:09] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:09] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:09] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:09] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:09] [Server thread/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:59:23] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:59:24] [Server thread/INFO]: Preparing spawn area: 29%
+[14:59:24] [Server thread/INFO]: Time elapsed: 17876 ms
+[14:59:24] [Server thread/INFO]: Done (21.167s)! For help, type "help"
+[14:59:25] [Server thread/INFO]: Dan[/25.1.220.15:57282] logged in with entity id 58 at (170.17038602440215, 77.5625, 598.932962539511)
+[14:59:25] [Server thread/INFO]: Dan joined the game
+[15:04:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3193ms or 63 ticks behind
+[15:10:08] [Server thread/INFO]: Dan lost connection: Disconnected
+[15:10:08] [Server thread/INFO]: Dan left the game
+[15:34:57] [Server thread/INFO]: Edim[/25.88.177.209:53491] logged in with entity id 1608 at (100.5, 71.5000002, 627.5)
+[15:34:57] [Server thread/INFO]: Edim joined the game
+[15:36:30] [Server thread/INFO]: Gabs[/25.19.155.107:49917] logged in with entity id 2075 at (69.66570026370776, 71.0, 218.16956629030756)
+[15:36:30] [Server thread/INFO]: Gabs joined the game
+[15:36:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2236ms or 44 ticks behind
+[15:36:38] [Server thread/INFO]: Dan[/25.1.220.15:57410] logged in with entity id 2205 at (170.09659370465204, 77.5625, 599.1332419381791)
+[15:36:38] [Server thread/INFO]: Dan joined the game
+[15:36:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3873ms or 77 ticks behind
+[15:36:53] [Server thread/INFO]: <Dan> Good Morning gamers!
+[15:37:08] [Server thread/INFO]: <Dan> 170 77 599
+[15:37:13] [Server thread/WARN]: Gabs moved too quickly! 2.5196057757556503,0.0,9.894617633020971
+[15:37:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3830ms or 76 ticks behind
+[15:37:33] [Server thread/INFO]: <Edim> what a beautiful day today in minecraft!
+[15:37:42] [Server thread/INFO]: <Edim> quem quer ir pro nether
+[15:37:49] [Server thread/INFO]: <Gabs> eu
+[15:37:56] [Server thread/INFO]: <Gabs> tem obsidiana no meu bau
+[15:37:57] [Server thread/INFO]: <Dan> quero fzr uma dungeon
+[15:38:03] [Server thread/INFO]: <Edim> bora
+[15:38:08] [Server thread/INFO]: <Edim> cola aq em cs
+[15:38:23] [Server thread/INFO]: <Gabs> f1?
+[15:38:23] [Server thread/INFO]: <Dan> ta dxa só fzr um escudo e uma espada
+[15:38:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[15:39:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[15:39:48] [Server thread/WARN]: Gabs moved too quickly! -8.26571955649726,1.7521489003674589,5.561452303975557
+[15:39:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6892ms or 137 ticks behind
+[15:40:16] [Server thread/INFO]: <Edim> to na mina
+[15:40:16] [Server thread/INFO]: <Dan> edin
+[15:40:20] [Server thread/INFO]: <Edim> procurar obsdn
+[15:40:23] [Server thread/INFO]: <Dan> tem comida?
+[15:40:38] [Server thread/INFO]: <Dan> qual mina?
+[15:40:41] [Server thread/INFO]: <Gabs> edinus
+[15:40:46] [Server thread/INFO]: <Gabs> tenho 6 obsidi
+[15:40:49] [Server thread/INFO]: <Edim> vou pegar comida antes
+[15:41:01] [Server thread/INFO]: <Edim> blz, falta mais 4
+[15:41:02] [Server thread/INFO]: <Gabs> edi
+[15:41:04] [Server thread/INFO]: <Gabs> isso
+[15:41:42] [Server thread/INFO]: <Dan> só eu to pobre kkk
+[15:42:26] [Server thread/INFO]: Edim has made the advancement [The Parrots and the Bats]
+[15:42:26] [Server thread/INFO]: <Dan> mds edin
+[15:42:33] [Server thread/INFO]: <Dan> rei do gado
+[15:42:40] [Server thread/INFO]: <Dan> latifundiário
+[15:42:45] [Server thread/INFO]: <Dan> e eu aqui
+[15:42:49] [Server thread/INFO]: <Dan> na miséria
+[15:43:12] [Server thread/INFO]: <Dan> da comida senhor
+[15:43:14] [Server thread/INFO]: <Gabs> ed, vou ter d pintar uns trem aki em casa
+[15:43:18] [Server thread/INFO]: <Gabs> dps volto
+[15:43:22] [Server thread/INFO]: <Gabs> bejo
+[15:43:26] [Server thread/INFO]: Gabs lost connection: Disconnected
+[15:43:26] [Server thread/INFO]: Gabs left the game
+[15:43:27] [Server thread/INFO]: <Edim> meh
+[15:43:43] [Server thread/INFO]: <Dan> ty
+[15:43:50] [Server thread/INFO]: <Edim> cola ai
+[15:43:55] [Server thread/INFO]: <Edim> bora pegar obsdn
+[15:44:28] [Server thread/INFO]: <Dan> q iss
+[15:45:19] [Server thread/INFO]: <Dan> como quebra iss
+[15:45:33] [Server thread/INFO]: <Edim> picareta de dima
+[15:45:37] [Server thread/INFO]: <Dan> me
+[15:45:40] [Server thread/INFO]: <Edim> mas precisa tirar a lava antes
+[15:45:43] [Server thread/INFO]: <Dan> só tenho de pedra
+[15:45:48] [Server thread/INFO]: <Dan> e ta acabando kkkk
+[15:46:04] [Server thread/INFO]: Edim has made the advancement [Ice Bucket Challenge]
+[15:47:25] [Server thread/INFO]: <Dan> cabo minha pika
+[15:47:29] [Server thread/INFO]: <Dan> fuck
+[15:47:39] [Server thread/INFO]: <Dan> tem workbench?
+[15:47:43] [Server thread/INFO]: <Dan> wut
+[15:49:11] [Server thread/INFO]: <Edim> vam
+[15:49:31] [Server thread/INFO]: <Dan> n consigo subir as escadas
+[15:49:34] [Server thread/INFO]: <Dan> mto escuro
+[15:49:40] [Server thread/INFO]: <Edim> aumenta o brilho
+[15:49:59] [Server thread/INFO]: <Edim> conseguiu?
+[15:50:04] [Server thread/INFO]: <Edim> bota no max
+[15:50:19] [Server thread/INFO]: <Dan> ss
+[15:51:20] [Server thread/INFO]: <Dan> mds edin
+[15:51:22] [Server thread/INFO]: <Dan> mto rico
+[15:52:51] [Server thread/INFO]: <Edim> ?
+[15:53:42] [Server thread/INFO]: <Dan> time set day
+[15:54:31] [Server thread/INFO]: Dan has made the advancement [We Need to Go Deeper]
+[15:54:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9917ms or 198 ticks behind
+[15:54:31] [Server thread/INFO]: Edim has made the advancement [We Need to Go Deeper]
+[15:54:44] [Server thread/INFO]: <Dan> céu ta bonito hj
+[15:54:50] [Server thread/INFO]: <Edim> kskkssksk
+[15:55:14] [Server thread/INFO]: <Edim> mano
+[15:55:17] [Server thread/INFO]: <Edim> fortaleza
+[15:55:20] [Server thread/INFO]: <Edim> aq do lado
+[15:55:37] [Server thread/INFO]: <Dan> pra onde vc foi?
+[15:56:02] [Server thread/INFO]: <Edim> pegar pedra
+[15:57:04] [Server thread/INFO]: <Edim> aq
+[15:57:19] [Server thread/INFO]: <Dan> slc
+[15:59:15] [Server thread/INFO]: <Dan> edin
+[15:59:18] [Server thread/INFO]: <Dan> pq ta gemendo?
+[15:59:28] [Server thread/INFO]: <Edim> to gozando owo
+[16:00:10] [Server thread/INFO]: <Dan> praq serv isso?
+[16:00:15] [Server thread/INFO]: <Edim> lampada
+[16:00:56] [Server thread/INFO]: <Edim> cade vc
+[16:01:01] [Server thread/INFO]: <Edim> n vai se perder
+[16:01:10] [Server thread/INFO]: <Dan> ja volto
+[16:01:16] [Server thread/INFO]: Dan lost connection: Disconnected
+[16:01:16] [Server thread/INFO]: Dan left the game
+[16:01:24] [Server thread/INFO]: Edim has made the advancement [A Terrible Fortress]
+[16:04:15] [Server thread/INFO]: Dan[/25.1.220.15:57443] logged in with entity id 7263 at (78.90067893641042, 75.0, 568.7093629586682)
+[16:04:15] [Server thread/INFO]: Dan joined the game
+[16:05:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[16:09:12] [Server thread/INFO]: <Edim> vou sair dan
+[16:09:25] [Server thread/INFO]: <Edim> adeus
+[16:09:27] [Server thread/INFO]: Edim lost connection: Disconnected
+[16:09:27] [Server thread/INFO]: Edim left the game
+[16:11:42] [Server thread/INFO]: <Dan> opa
+[16:16:33] [Server thread/INFO]: Dan has made the advancement [Take Aim]
+[16:17:48] [Server thread/INFO]: Dan lost connection: Disconnected
+[16:17:48] [Server thread/INFO]: Dan left the game

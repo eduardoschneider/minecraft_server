@@ -1,0 +1,56 @@
+[01:07:43] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:07:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:07:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:07:43] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:07:43] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:07:43] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[01:07:43] [Server thread/INFO]: Loading properties
+[01:07:43] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_221]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at uk$2.run(SourceFile:109) [server.jar:?]
+[01:07:43] [Server thread/INFO]: Default game type: SURVIVAL
+[01:07:43] [Server thread/INFO]: Generating keypair
+[01:07:43] [Server thread/INFO]: Starting Minecraft server on 25.16.59.205:25565
+[01:07:43] [Server thread/INFO]: Using default channel type
+[01:07:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:07:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:07:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:07:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:07:44] [Server thread/INFO]: Preparing level "world"
+[01:07:44] [Server thread/INFO]: Reloading ResourceManager: Default
+[01:07:44] [Server thread/INFO]: Loaded 6 recipes
+[01:07:45] [Server thread/INFO]: Loaded 811 advancements
+[01:07:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:07:47] [Server thread/INFO]: Preparing spawn area: 0%
+[01:07:47] [Server thread/INFO]: Preparing spawn area: 0%
+[01:07:47] [Server thread/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:07:51] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:07:52] [Server thread/INFO]: Preparing spawn area: 60%
+[01:07:52] [Server thread/INFO]: Time elapsed: 6597 ms
+[01:07:52] [Server thread/INFO]: Done (8.038s)! For help, type "help"
+[01:09:39] [Server thread/INFO]: Ameka[/25.16.59.205:57992] logged in with entity id 58 at (162.89983061828957, 71.0, 652.3710542120323)
+[01:09:39] [Server thread/INFO]: Ameka joined the game
+[01:12:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2261ms or 45 ticks behind
+[02:03:07] [Server thread/WARN]: Fetching packet for removed entity atx['Air'/7964, l='world', x=188.12, y=71.00, z=618.73]
+[02:29:31] [Server thread/INFO]: Ameka lost connection: Disconnected
+[02:29:31] [Server thread/INFO]: Ameka left the game

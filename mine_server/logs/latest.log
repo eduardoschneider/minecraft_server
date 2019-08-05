@@ -1,13 +1,12 @@
-[02:29:48] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[02:29:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02:29:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02:29:48] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[02:29:48] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02:29:48] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[02:29:48] [Server thread/INFO]: Loading properties
-[02:29:48] [Server thread/INFO]: Default game type: SURVIVAL
-[02:29:48] [Server thread/INFO]: Generating keypair
-[02:29:48] [Server console handler/ERROR]: Exception handling console input
+[14:14:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:14:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:14:00] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:14:00] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:14:06] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[14:14:06] [Server thread/INFO]: Loading properties
+[14:14:06] [Server thread/INFO]: Default game type: SURVIVAL
+[14:14:06] [Server thread/INFO]: Generating keypair
+[14:14:06] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_221]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_221]
@@ -21,48 +20,655 @@ java.io.IOException: Identificador inválido
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
 	at uk$2.run(SourceFile:109) [server.jar:?]
-[02:29:48] [Server thread/INFO]: Starting Minecraft server on 25.16.59.205:25565
-[02:29:48] [Server thread/INFO]: Using default channel type
-[02:29:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:29:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:29:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:29:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:29:49] [Server thread/INFO]: Preparing level "world"
-[02:29:49] [Server thread/INFO]: Reloading ResourceManager: Default
-[02:29:49] [Server thread/INFO]: Loaded 6 recipes
-[02:29:50] [Server thread/INFO]: Loaded 811 advancements
-[02:29:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:29:51] [Server thread/INFO]: Preparing spawn area: 0%
-[02:29:51] [Server thread/INFO]: Preparing spawn area: 0%
-[02:29:51] [Server thread/INFO]: Preparing spawn area: 0%
-[02:29:52] [Server thread/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server-Worker-2/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server-Worker-2/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[02:29:56] [Server thread/INFO]: Preparing spawn area: 60%
-[02:29:56] [Server thread/INFO]: Time elapsed: 5585 ms
-[02:29:56] [Server thread/INFO]: Done (7.076s)! For help, type "help"
-[02:30:42] [Server thread/INFO]: Ameka[/25.16.59.205:58375] logged in with entity id 58 at (151.11014909363595, 72.0, 643.9069137675664)
-[02:30:42] [Server thread/INFO]: Ameka joined the game
-[02:30:51] [Server thread/INFO]: Ameka lost connection: Disconnected
-[02:30:51] [Server thread/INFO]: Ameka left the game
-[02:30:54] [Server thread/INFO]: Stopping server
-[02:30:54] [Server thread/INFO]: Saving players
-[02:30:54] [Server thread/INFO]: Saving worlds
-[02:30:54] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[02:30:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:30:54] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[02:30:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:30:54] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[02:30:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:30:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:30:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:30:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:14:06] [Server thread/INFO]: Starting Minecraft server on 25.16.59.205:25565
+[14:14:06] [Server thread/INFO]: Using default channel type
+[14:14:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:14:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:14:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:14:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:14:07] [Server thread/INFO]: Preparing level "world"
+[14:14:07] [Server thread/INFO]: Reloading ResourceManager: Default
+[14:14:08] [Server thread/INFO]: Loaded 6 recipes
+[14:14:08] [Server thread/INFO]: Loaded 811 advancements
+[14:14:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[14:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[14:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[14:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[14:14:10] [Server thread/INFO]: Preparing spawn area: 51%
+[14:14:10] [Server thread/INFO]: Time elapsed: 2191 ms
+[14:14:10] [Server thread/INFO]: Done (3.440s)! For help, type "help"
+[14:14:35] [Server thread/INFO]: Edim[/25.88.177.209:51220] logged in with entity id 58 at (77.63398356143117, 75.0, 569.6892166452329)
+[14:14:35] [Server thread/INFO]: Edim joined the game
+[14:16:08] [Server thread/INFO]: Felipe[/25.102.179.24:59385] logged in with entity id 556 at (-153.5, 76.0, 75.5)
+[14:16:08] [Server thread/INFO]: Felipe joined the game
+[14:16:45] [Server thread/INFO]: <Felipe> moradia pro sem teto eduin?
+[14:16:54] [Server thread/INFO]: <Edim> chega ai
+[14:17:02] [Server thread/INFO]: <Edim> onde vc ta?
+[14:17:07] [Server thread/INFO]: <Felipe> no respawm
+[14:17:10] [Server thread/INFO]: <Edim> mds
+[14:17:13] [Server thread/INFO]: <Edim> se ta mt longe
+[14:17:18] [Server thread/INFO]: <Edim> vou te buscar
+[14:17:20] [Server thread/INFO]: <Felipe> -144 78 107
+[14:17:20] [Server thread/INFO]: <Edim> 1 min
+[14:17:33] [Server thread/INFO]: Unknown command
+[14:17:33] [Server thread/INFO]: kkkkkkkkk vcs conseguem ler minha msg?<--[HERE]
+[14:17:35] [Server thread/INFO]: <Edim> vem para
+[14:17:45] [Server thread/INFO]: <Edim> 104x
+[14:17:51] [Server thread/INFO]: <Edim> 631z
+[14:17:59] [Server thread/INFO]: <Edim> consegue?
+[14:18:37] [Server thread/INFO]: <Felipe> vou tentar
+[14:18:55] [Server thread/INFO]: <Edim> n ta tão longe
+[14:18:58] [Server thread/INFO]: <Edim> parce
+[14:19:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2166ms or 43 ticks behind
+[14:20:21] [Server thread/INFO]: <Felipe> vou
+[14:20:27] [Server thread/INFO]: <Felipe> ir ai
+[14:20:33] [Server thread/INFO]: <Felipe> se demorar e pra ta chovendo e minha mae ta me batendo
+[14:20:51] [Server thread/INFO]: <Edim> pera
+[14:20:59] [Server thread/INFO]: <Edim> se ta vindo?
+[14:22:03] [Server thread/INFO]: <Felipe> sim
+[14:23:24] [Server thread/INFO]: <Edim> ta chegando?
+[14:23:31] [Server thread/INFO]: <Edim> se for morrer avisa
+[14:23:36] [Server thread/INFO]: <Edim> q vou te buscar
+[14:24:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2113ms or 42 ticks behind
+[14:24:58] [Server thread/INFO]: <Felipe> to uindo
+[14:25:10] [Server thread/INFO]: <Edim> quer q te busca?
+[14:25:14] [Server thread/INFO]: Felipe was blown up by Creeper
+[14:25:19] [Server thread/INFO]: <Edim> kskskskskksksks
+[14:27:06] [Server thread/INFO]: <Edim> felps
+[14:27:07] [Server thread/INFO]: <Felipe> tou indo
+[14:27:10] [Server thread/INFO]: <Edim> passa coordenada
+[14:27:12] [Server thread/INFO]: <Edim> q vou ai
+[14:27:43] [Server thread/INFO]: <Edim> em
+[14:27:49] [Server thread/INFO]: Felipe was shot by Skeleton
+[14:27:55] [Server thread/INFO]: <Felipe> dorme ai
+[14:27:56] [Server thread/INFO]: <Edim> onde se ta felps
+[14:28:02] [Server thread/INFO]: Felipe lost connection: Disconnected
+[14:28:02] [Server thread/INFO]: Felipe left the game
+[14:28:52] [Server thread/INFO]: Felipe[/25.102.179.24:59725] logged in with entity id 4543 at (-143.5, 72.0, 71.5)
+[14:28:52] [Server thread/INFO]: Felipe joined the game
+[14:29:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2288ms or 45 ticks behind
+[14:30:28] [Server thread/INFO]: <Edim> felps
+[14:30:32] [Server thread/INFO]: <Edim> coordenada
+[14:30:34] [Server thread/INFO]: <Felipe> mandei la
+[14:30:50] [Server thread/INFO]: <Edim> ata
+[14:31:22] [Server thread/WARN]: Lelouch moved wrongly!
+[14:31:22] [Server thread/WARN]: Lelouch moved wrongly!
+[14:31:22] [Server thread/WARN]: Lelouch moved wrongly!
+[14:31:36] [Server thread/INFO]: <Felipe> ja to
+[14:31:39] [Server thread/INFO]: <Felipe> aqui na vila
+[14:32:15] [Server thread/INFO]: <Edim> q vila?
+[14:32:18] [Server thread/INFO]: <Felipe> a de vcs
+[14:32:24] [Server thread/INFO]: <Edim> vai pra cs na montanha
+[14:32:39] [Server thread/INFO]: <Felipe> pensava que a casa bonita era a sua
+[14:32:47] [Server thread/INFO]: <Edim> a gente nem mora aq mais
+[14:33:05] [Server thread/INFO]: <Felipe> é um portal do nether
+[14:34:05] [Server thread/WARN]: Lelouch moved wrongly!
+[14:34:05] [Server thread/WARN]: Lelouch moved wrongly!
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! -0.4396455506755643,1.0,10.20676291508164
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! -0.45962943943345635,1.0,10.670706683960475
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! -0.47284762049947915,1.0,11.134835681260938
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! -0.40968698446900476,1.0,11.58733535960505
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! -0.23119526463983675,1.0,11.989691666339013
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 0.011509225947918367,1.0,12.362922450315295
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 0.2885726899040577,1.0,12.720568747764105
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 0.5840209554656042,1.0,13.069876097193287
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 0.889306561812802,1.0,13.414721441797838
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 1.1998559330789789,1.0,13.757179256583527
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 1.5132218400051585,1.0,14.09835955176527
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 1.8280948190073474,1.0,14.438856271677992
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 2.143774202229622,1.0,14.778987224093271
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 2.4598850762721014,1.0,15.118922461613352
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 2.776226832449481,1.0,15.458752975995026
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 3.092692129053944,1.0,15.798527455113344
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 3.409223529677817,1.0,16.13827195087947
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 3.7257903012445013,1.0,16.47800040315167
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 4.042375999097459,1.0,16.817720270870154
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 4.358971824028856,0.9231679985046384,17.15743554516507
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 4.543095651461414,0.7725465413369932,17.35500421068582
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 4.7220169992495755,0.5510576895623984,17.546989747112548
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 4.896298775557142,0.26150779068264285,17.73399624886963
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.066442981899073,0.0,17.91656244738033
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.365374719535907,0.0,18.237312934266583
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.672524262337646,0.0,18.566878071086876
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.9786113315687714,0.0,18.906077196609658
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.262131604481681,0.0,19.267225320960847
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.477083330636702,0.0,19.66689370577376
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.565897640389892,0.0,20.095049106266288
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.5212623888616434,0.0,20.519385581044503
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.376282548611414,-0.07683200149536162,20.92517695236802
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.285904035822568,-0.2274534586630068,21.159691870544293
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.192501784937505,-0.4489423104376016,21.38621632658942
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.105453927581394,-0.7384922093173572,21.609939312277334
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 6.024072918537726,-1.0,21.83116394662875
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.913980058321911,-1.0,22.24553676986534
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.817554289576194,-1.0,22.684344094512653
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.71996011293416,-1.0768320014953616,23.134588193841864
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.659879882388793,-1.2274534586630068,23.396085428702122
+[14:34:20] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 5.596434945184441,-1.4489423104376016,23.64898656970024
+[14:34:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3028ms or 60 ticks behind
+[14:35:08] [Server thread/INFO]: <Edim> acho q me perdi
+[14:35:12] [Server thread/INFO]: <Felipe> kkkkkkkkkkkkkk
+[14:35:27] [Server thread/INFO]: <Edim> whattttttttttttt
+[14:35:31] [Server thread/INFO]: <Edim> mano
+[14:35:36] [Server thread/INFO]: <Edim> cheguei na minha outra casa
+[14:35:40] [Server thread/INFO]: <Edim> na primeira
+[14:35:45] [Server thread/INFO]: <Edim> é literalemtne
+[14:35:48] [Server thread/INFO]: <Edim> do outro lado do mapa
+[14:36:12] [Server thread/INFO]: <Felipe> PASSA AS COORDERNADAS
+[14:37:23] [Server thread/WARN]: Lelouch moved wrongly!
+[14:37:23] [Server thread/WARN]: Lelouch moved wrongly!
+[14:38:06] [Server thread/INFO]: <Edim> oi
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 9.462711576106528,0.0,3.715004758376722
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 9.925632230654713,0.0,3.719640941624789
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 10.389151869778516,0.0,3.7253945371379587
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 10.82902069250369,0.0,3.836766207699384
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 11.256802794020757,0.5,4.003638870712507
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 11.681916621463444,1.0,4.193091602033974
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 12.10586133049324,1.5,4.394118218779681
+[14:39:22] [Server thread/WARN]: Lelouch (vehicle of Edim) moved too quickly! 12.546133229527726,1.5,4.469124781131541
+[14:39:22] [Server thread/WARN]: Lelouch moved wrongly!
+[14:39:28] [Server thread/INFO]: <Edim> cheguei
+[14:40:02] [Server thread/INFO]: <Felipe> vemn
+[14:40:07] [Server thread/INFO]: <Felipe> tou na casa aqui
+[14:40:35] [Server thread/INFO]: <Edim> qual
+[14:40:49] [Server thread/INFO]: <Felipe> do lado das ovelhas
+[14:41:04] [Server thread/INFO]: <Edim> a minha é a outra
+[14:41:06] [Server thread/INFO]: <Edim> essa aq
+[14:41:13] [Server thread/INFO]: <Edim> do outro lado da pont
+[14:41:45] [Server thread/INFO]: <Edim> pode usar os ferros ai
+[14:41:52] [Server thread/INFO]: <Felipe> vapo edinho vc é viciado dms
+[14:41:59] [Server thread/INFO]: <Edim> nem sou
+[14:41:59] [Server thread/INFO]: Felipe has made the advancement [Acquire Hardware]
+[14:42:44] [Server thread/INFO]: Felipe has made the advancement [Suit Up]
+[14:42:56] [Server thread/INFO]: Felipe has made the advancement [Stone Age]
+[14:43:13] [Server thread/INFO]: <Edim> dorme
+[14:43:24] [Server thread/INFO]: Felipe has made the advancement [Isn't It Iron Pick]
+[14:43:41] [Server thread/INFO]: Felipe has made the advancement [Sweet Dreams]
+[14:43:57] [Server thread/INFO]: <Edim> boa
+[14:44:00] [Server thread/INFO]: <Edim> quer minerar
+[14:44:03] [Server thread/INFO]: <Edim> fazer a casa
+[14:44:06] [Server thread/INFO]: <Felipe> aonde é a sua casa?
+[14:44:07] [Server thread/INFO]: <Edim> ou ir pro nether?
+[14:44:12] [Server thread/INFO]: <Felipe> a atual
+[14:44:15] [Server thread/INFO]: <Edim> essa aqui
+[14:44:19] [Server thread/INFO]: <Edim> mas nem terminei
+[14:44:24] [Server thread/INFO]: <Felipe> uai mais não era longe?
+[14:44:26] [Server thread/INFO]: <Felipe> mano ser sincero
+[14:44:29] [Server thread/INFO]: <Felipe> vou cagar
+[14:44:31] [Server thread/INFO]: <Felipe> ja volto
+[14:44:34] [Server thread/INFO]: <Edim> kkkkkkk
+[14:49:27] [Server thread/INFO]: <Felipe> ei
+[14:49:31] [Server thread/INFO]: <Felipe> voltei
+[14:49:46] [Server thread/INFO]: <Edim> mec
+[14:49:53] [Server thread/INFO]: <Felipe> pensa em mudar skin n?
+[14:49:55] [Server thread/INFO]: <Edim> to tentando descobrir como faz livros
+[14:50:06] [Server thread/INFO]: <Edim> nossa
+[14:50:11] [Server thread/INFO]: <Edim> precisa de muita coisa
+[14:50:11] [Server thread/INFO]: <Felipe> precisa de açucar
+[14:50:16] [Server thread/INFO]: <Edim> papel e couro
+[14:50:18] [Server thread/INFO]: <Edim> 15
+[14:51:13] [Server thread/INFO]: <Felipe> se tem plantação
+[14:51:25] [Server thread/INFO]: <Edim> ai
+[14:52:11] [Server thread/INFO]: <Felipe> vou trocar de skin
+[14:52:13] [Server thread/INFO]: Felipe lost connection: Disconnected
+[14:52:13] [Server thread/INFO]: Felipe left the game
+[15:02:26] [Server thread/INFO]: Felipe[/25.102.179.24:61367] logged in with entity id 11770 at (93.0432599829084, 70.0, 609.0287819911051)
+[15:02:26] [Server thread/INFO]: Felipe joined the game
+[15:02:45] [Server thread/INFO]: Felipe lost connection: Disconnected
+[15:02:45] [Server thread/INFO]: Felipe left the game
+[15:03:05] [Server thread/INFO]: Felipe[/25.102.179.24:61398] logged in with entity id 11896 at (93.0432599829084, 70.0, 609.0287819911051)
+[15:03:05] [Server thread/INFO]: Felipe joined the game
+[15:03:21] [Server thread/INFO]: <Felipe> a tnc
+[15:03:42] [Server thread/INFO]: <Felipe> nem deu certo
+[15:03:45] [Server thread/INFO]: Felipe lost connection: Disconnected
+[15:03:45] [Server thread/INFO]: Felipe left the game
+[15:09:18] [Server thread/INFO]: Ameka[/25.16.59.205:65125] logged in with entity id 12680 at (151.11014909363595, 72.0, 643.9069137675664)
+[15:09:18] [Server thread/INFO]: Ameka joined the game
+[15:09:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[15:11:01] [Server thread/INFO]: <Edim> cade vce du
+[15:11:07] [Server thread/INFO]: <Ameka> casa
+[15:11:38] [Server thread/INFO]: <Ameka> s2
+[15:11:42] [Server thread/INFO]: <Edim> <3
+[15:17:48] [Server thread/INFO]: Edim fell from a high place
+[15:17:51] [Server thread/INFO]: <Ameka> k
+[15:18:47] [Server thread/INFO]: <Ameka> dorme?
+[15:19:17] [Server thread/INFO]: <Edim> pront
+[15:24:57] [Server thread/INFO]: Edim lost connection: Timed out
+[15:24:57] [Server thread/INFO]: Edim left the game
+[15:25:15] [Server thread/INFO]: Edim[/25.88.177.209:51609] logged in with entity id 16041 at (64.44110882709327, 180.0, 550.0943048892661)
+[15:25:15] [Server thread/INFO]: Edim joined the game
+[15:31:06] [Server thread/INFO]: <Ameka> sleep
+[15:32:42] [Server thread/INFO]: <Ameka> vou caçar dg
+[15:32:49] [Server thread/INFO]: <Edim> dg?
+[15:32:53] [Server thread/INFO]: <Edim> dog?
+[15:32:55] [Server thread/INFO]: <Ameka> dung
+[15:32:58] [Server thread/INFO]: <Edim> a
+[15:33:04] [Server thread/INFO]: <Ameka> dog eu ja tenho, ele vive com as ovelhas
+[15:33:08] [Server thread/INFO]: <Ameka> eu tiro ele de la ele volta
+[15:33:11] [Server thread/INFO]: <Edim> o meusumiu
+[15:34:49] [Server thread/INFO]: Edim fell from a high place
+[15:34:55] [Server thread/INFO]: <Edim> fuck
+[15:35:24] [Server thread/INFO]: <Ameka> eita eu achei agua escura
+[15:35:32] [Server thread/INFO]: <Edim> nani
+[15:35:34] [Server thread/INFO]: <Edim> nunca vi
+[15:35:54] [Server thread/INFO]: <Ameka> achei um gato
+[15:35:55] [Server thread/INFO]: <Ameka> preto
+[15:35:57] [Server thread/INFO]: <Ameka> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[15:35:59] [Server thread/INFO]: <Edim> aaa
+[15:36:02] [Server thread/INFO]: <Edim> pantano
+[15:37:13] [Server thread/INFO]: Ameka was killed by Witch using magic
+[15:37:18] [Server thread/INFO]: <Edim> kkkkkkk
+[15:37:27] [Server thread/INFO]: <Ameka> eu achei q fosse um villager
+[15:37:30] [Server thread/INFO]: <Ameka> kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+[15:39:24] [Server thread/WARN]: Ameka moved too quickly! -3.441991204454098,2.024424088213692,-9.260312688985096
+[15:39:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2136ms or 42 ticks behind
+[15:40:35] [Server thread/INFO]: Ameka was killed by Witch using magic
+[15:40:39] [Server thread/INFO]: <Ameka> ela n morre maon
+[15:40:41] [Server thread/INFO]: <Ameka> imortal
+[15:44:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[15:44:36] [Server thread/INFO]: <Ameka> dorme ai
+[15:49:09] [Server thread/INFO]: <Edim> edu
+[15:49:11] [Server thread/INFO]: <Edim> vou sair
+[15:49:13] [Server thread/INFO]: <Ameka> ok
+[15:49:13] [Server thread/INFO]: <Edim> dps eu volto
+[15:49:17] [Server thread/INFO]: Edim lost connection: Disconnected
+[15:49:17] [Server thread/INFO]: Edim left the game
+[15:59:46] [Server thread/INFO]: Ameka lost connection: Disconnected
+[15:59:46] [Server thread/INFO]: Ameka left the game
+[16:16:25] [Server thread/INFO]: Felps[/25.102.179.24:50180] logged in with entity id 24337 at (-153.5, 70.0, 57.5)
+[16:16:25] [Server thread/INFO]: Felps joined the game
+[16:16:38] [Server thread/INFO]: Felps lost connection: Disconnected
+[16:16:38] [Server thread/INFO]: Felps left the game
+[16:21:39] [Server thread/INFO]: Felipe[/25.102.179.24:50452] logged in with entity id 24471 at (94.94390451566322, 71.0, 593.5711854517781)
+[16:21:39] [Server thread/INFO]: Felipe joined the game
+[16:29:40] [Server thread/INFO]: Felipe lost connection: Disconnected
+[16:29:40] [Server thread/INFO]: Felipe left the game
+[16:30:03] [Server thread/INFO]: Felipe[/25.102.179.24:52723] logged in with entity id 25749 at (95.92500001192091, 72.0, 607.9250000119209)
+[16:30:03] [Server thread/INFO]: Felipe joined the game
+[16:34:10] [Server thread/INFO]: Felipe has made the advancement [A Seedy Place]
+[16:35:37] [Server thread/INFO]: Felipe lost connection: Disconnected
+[16:35:37] [Server thread/INFO]: Felipe left the game
+[16:42:57] [Server thread/INFO]: Dan[/25.1.220.15:50033] logged in with entity id 26751 at (172.32063407665677, 72.0, 603.9964979774016)
+[16:42:57] [Server thread/INFO]: Dan joined the game
+[16:43:07] [Server thread/INFO]: Dan lost connection: Disconnected
+[16:43:07] [Server thread/INFO]: Dan left the game
+[16:45:31] [Server thread/INFO]: Felipe[/25.102.179.24:59273] logged in with entity id 27140 at (94.82372993029921, 71.0, 594.1055344033921)
+[16:45:31] [Server thread/INFO]: Felipe joined the game
+[16:51:11] [Server thread/INFO]: Felipe has made the advancement [Monster Hunter]
+[16:52:47] [Server thread/INFO]: Felipe has made the advancement [Diamonds!]
+[17:00:13] [Server thread/INFO]: Edim[/25.88.177.209:52284] logged in with entity id 29426 at (124.0517118498533, 36.0, 545.7398411156549)
+[17:00:13] [Server thread/INFO]: Edim joined the game
+[17:00:33] [Server thread/INFO]: <Felipe> essa mina aqui mano, tou perdido
+[17:00:41] [Server thread/INFO]: <Edim> qual
+[17:00:46] [Server thread/INFO]: <Felipe> debaixo da tua casa
+[17:01:01] [Server thread/INFO]: <Edim> tu n pegu meus dima n né
+[17:01:07] [Server thread/INFO]: <Edim> tinha colocado tocha neles
+[17:01:09] [Server thread/INFO]: <Felipe> nao eu te mandei foto
+[17:01:16] [Server thread/INFO]: <Felipe> os que eu peguei fui eu que cavei um tunel msm
+[17:01:19] [Server thread/INFO]: <Edim> nossaaaa
+[17:01:22] [Server thread/INFO]: <Edim> cola aq
+[17:01:39] [Server thread/INFO]: <Edim> felps
+[17:01:40] [Server thread/INFO]: <Felipe> na real, tem um tunel do lado da lava que eu fiz, tem dima la ainda, mas a pica quebro
+[17:01:47] [Server thread/INFO]: <Edim> vem pra entrada da caverna
+[17:01:51] [Server thread/INFO]: <Felipe> tou procurando
+[17:01:57] [Server thread/INFO]: <Felipe> que cordernada vc ta
+[17:03:28] [Server thread/INFO]: <Felipe> cade a entrada
+[17:04:34] [Server thread/INFO]: <Edim> guardar as coisas
+[17:04:41] [Server thread/INFO]: <Edim> q achei as minas prontas lá
+[17:04:47] [Server thread/INFO]: <Edim> q tem trilho de trem e pa
+[17:04:47] [Server thread/INFO]: <Felipe> q
+[17:04:58] [Server thread/INFO]: <Felipe> tou indo
+[17:05:04] [Server thread/INFO]: <Felipe> aonde eu tava
+[17:05:07] [Server thread/INFO]: <Felipe> que te mandei a ultima foto
+[17:05:10] [Server thread/INFO]: <Edim> pera
+[17:05:12] [Server thread/INFO]: <Felipe> tinha ouro e lapis azul e um dima ainda
+[17:05:39] [Server thread/INFO]: <Felipe> taca madeira pra mim pfv ai do auto
+[17:05:40] [Server thread/INFO]: <Felipe> alto
+[17:05:57] [Server thread/INFO]: <Edim> chegou?
+[17:05:59] [Server thread/INFO]: <Felipe> n
+[17:06:02] [Server thread/INFO]: <Felipe> taca com vontade
+[17:06:23] [Server thread/INFO]: <Edim> felps
+[17:06:27] [Server thread/INFO]: <Edim> só vamo dormir antes
+[17:06:39] [Server thread/INFO]: <Edim> tem cama ai?
+[17:07:07] [Server thread/INFO]: <Edim> zzz
+[17:07:34] [Server thread/INFO]: <Edim> vem
+[17:07:43] [Server thread/INFO]: <Felipe> pera
+[17:07:45] [Server thread/INFO]: <Felipe> cade tu
+[17:07:55] [Server thread/INFO]: <Edim> desci
+[17:08:25] [Server thread/INFO]: <Felipe> ta
+[17:08:51] [Server thread/INFO]: <Edim> cade
+[17:08:59] [Server thread/INFO]: <Felipe> na mina
+[17:09:01] [Server thread/INFO]: <Felipe> te procurando
+[17:09:04] [Server thread/INFO]: <Edim> onde?
+[17:09:08] [Server thread/INFO]: <Edim> volta p entrada
+[17:10:36] [Server thread/INFO]: <Felipe> pera
+[17:10:41] [Server thread/INFO]: <Felipe> vou pegar o dima
+[17:11:20] [Server thread/INFO]: <Edim> pegou?
+[17:11:37] [Server thread/INFO]: <Felipe> ts
+[17:13:47] [Server thread/INFO]: <Edim> andajunto se n vai perde
+[17:15:29] [Server thread/INFO]: <Felipe> tem espawm de creeper perto
+[17:15:31] [Server thread/INFO]: <Felipe> so pode
+[17:15:35] [Server thread/INFO]: <Edim> ss
+[17:15:47] [Server thread/INFO]: <Felipe> aq1
+[17:15:49] [Server thread/INFO]: <Felipe> aq
+[17:17:45] [Server thread/INFO]: <Edim> wtf
+[17:17:47] [Server thread/INFO]: <Edim> vem k
+[17:18:55] [Server thread/INFO]: <Edim> outro spawn
+[17:19:47] [Server thread/INFO]: <Felipe> tem outro
+[17:20:17] [Server thread/INFO]: <Felipe> vixe
+[17:20:51] [Server thread/INFO]: <Felipe> mano
+[17:20:53] [Server thread/INFO]: <Felipe> tem mt
+[17:20:55] [Server thread/INFO]: <Felipe> pera
+[17:22:08] [Server thread/INFO]: <Felipe> da comida
+[17:22:37] [Server thread/INFO]: <Edim> corre
+[17:22:50] [Server thread/INFO]: <Felipe> faz uma work
+[17:22:55] [Server thread/INFO]: <Felipe> to sem madeira
+[17:25:03] [Server thread/INFO]: <Felipe> tem mt mina
+[17:25:04] [Server thread/INFO]: <Felipe> ainda
+[17:25:45] [Server thread/INFO]: <Edim> aq
+[17:25:47] [Server thread/INFO]: <Edim> atras
+[17:26:19] [Server thread/INFO]: <Edim> tem tocha?
+[17:26:36] [Server thread/INFO]: <Felipe> s
+[17:26:44] [Server thread/INFO]: <Felipe> precisa?
+[17:28:47] [Server thread/INFO]: <Felipe> aq
+[17:29:24] [Server thread/INFO]: <Edim> aq
+[17:31:38] [Server thread/INFO]: <Felipe> ravina
+[17:31:44] [Server thread/INFO]: <Felipe> adiante com vista pro cel
+[17:31:45] [Server thread/INFO]: <Felipe> ceu
+[17:32:01] [Server thread/INFO]: <Edim> onde
+[17:32:31] [Server thread/INFO]: <Edim> felps
+[17:32:36] [Server thread/INFO]: <Edim> vamo voltar por onde viemos
+[17:32:38] [Server thread/INFO]: <Edim> se n da ruim
+[17:32:43] [Server thread/INFO]: <Felipe> aq
+[17:32:44] [Server thread/INFO]: <Felipe> volta
+[17:32:46] [Server thread/INFO]: <Felipe> e aq perto
+[17:32:47] [Server thread/INFO]: <Felipe> vem ca
+[17:32:58] [Server thread/INFO]: <Felipe> vem ca
+[17:33:15] [Server thread/INFO]: <Felipe> tamo perto
+[17:35:09] [Server thread/INFO]: <Edim> felps
+[17:36:39] [Server thread/INFO]: <Edim> what
+[17:36:44] [Server thread/INFO]: <Edim> tem q ter spawner de zumbi aq
+[17:36:48] [Server thread/INFO]: <Edim> n é possivel
+[17:36:48] [Server thread/INFO]: <Felipe> ent
+[17:37:08] [Server thread/INFO]: <Edim> aq
+[17:37:38] [Server thread/INFO]: <Felipe> waht
+[17:37:52] [Server thread/INFO]: <Edim> tem picareta?
+[17:38:00] [Server thread/INFO]: <Felipe> s
+[17:38:16] [Server thread/INFO]: <Felipe> precisa?
+[17:39:58] [Server thread/INFO]: <Felipe> vapo
+[17:40:01] [Server thread/WARN]: Felipe moved wrongly!
+[17:40:09] [Server thread/INFO]: <Felipe> acabo
+[17:40:35] [Server thread/INFO]: <Felipe> cade tu
+[17:40:43] [Server thread/INFO]: <Felipe> vamo pra ravina e subir de la
+[17:40:46] [Server thread/INFO]: <Edim> ss
+[17:40:48] [Server thread/INFO]: <Felipe> tenho as coordenadas de cas
+[17:41:27] [Server thread/INFO]: <Edim> cade
+[17:41:31] [Server thread/INFO]: <Felipe> ai q ta
+[17:41:34] [Server thread/INFO]: <Edim> vc
+[17:41:39] [Server thread/INFO]: <Felipe> atras
+[17:42:18] [Server thread/INFO]: <Felipe> chega aqui
+[17:42:33] [Server thread/INFO]: <Felipe> vem
+[17:44:11] [Server thread/INFO]: <Edim> nu
+[17:44:13] [Server thread/INFO]: <Edim> rendeu
+[17:44:13] [Server thread/INFO]: <Felipe> kkk
+[17:47:11] [Server thread/INFO]: <Edim> felps
+[17:47:17] [Server thread/INFO]: <Edim> tenho um livro de fortun
+[17:47:23] [Server thread/INFO]: <Edim> como coloco na picareta
+[17:47:38] [Server thread/INFO]: <Felipe> bigorna eu acho
+[17:48:42] [Server thread/INFO]: <Felipe> era isso?
+[17:48:52] [Server thread/INFO]: <Felipe> prq ta me dando rapaz
+[17:48:57] [Server thread/INFO]: <Edim> pra vc ver
+[17:49:00] [Server thread/INFO]: <Felipe> e prq nao usou numa picareta de DIMA?
+[17:49:06] [Server thread/INFO]: <Edim> pq era fortuna 1
+[17:49:14] [Server thread/INFO]: <Edim> quero a 3
+[17:49:16] [Server thread/INFO]: <Edim> na dima
+[17:49:21] [Server thread/INFO]: <Felipe> TENHA 2 DE DIMA
+[17:49:27] [Server thread/INFO]: <Edim> lulw
+[17:49:31] [Server thread/INFO]: <Edim> quer ir pro nether?
+[17:49:37] [Server thread/INFO]: <Felipe> vou tomar banho agora
+[17:49:42] [Server thread/INFO]: <Felipe> senão fica muito frio
+[17:49:46] [Server thread/INFO]: <Felipe> devo voltar daqui 40 min
+[17:49:47] [Server thread/INFO]: <Edim> ksksksk
+[17:49:49] [Server thread/INFO]: <Edim> okk
+[17:50:12] [Server thread/INFO]: <Felipe> vou deixar oq eu peguei num bau aqui, se precisa de algo urgente pode pegar oq eu minerei sem problem
+[17:50:21] [Server thread/INFO]: <Edim> nice
+[17:53:12] [Server thread/INFO]: <Edim> kskskskksksks
+[17:53:28] [Server thread/INFO]: <Felipe> so por agora rlx, dps monto minha casita
+[17:53:39] [Server thread/INFO]: <Edim> ta safe
+[17:53:44] [Server thread/INFO]: <Edim> se quiser fazer uma junto
+[17:53:46] [Server thread/INFO]: <Edim> a gente faz
+[17:53:57] [Server thread/INFO]: <Felipe> blz dps volto
+[17:53:59] [Server thread/INFO]: Felipe lost connection: Disconnected
+[17:53:59] [Server thread/INFO]: Felipe left the game
+[18:29:46] [Server thread/INFO]: Edim lost connection: Disconnected
+[18:29:46] [Server thread/INFO]: Edim left the game
+[18:33:41] [Server thread/INFO]: Felipe[/25.102.179.24:51559] logged in with entity id 40931 at (101.69999998807907, 72.875, 626.81786489905)
+[18:33:41] [Server thread/INFO]: Felipe joined the game
+[18:51:47] [Server thread/INFO]: Edim[/25.88.177.209:52869] logged in with entity id 43500 at (101.95552010983285, 72.0, 631.4256282779475)
+[18:51:47] [Server thread/INFO]: Edim joined the game
+[18:51:58] [Server thread/INFO]: <Edim> man
+[18:52:38] [Server thread/INFO]: <Edim> kkkkkk
+[18:52:45] [Server thread/INFO]: <Edim> vam
+[18:52:52] [Server thread/INFO]: <Felipe> pera so deixa eu fazer uma agua com limao aq
+[18:54:49] [Server thread/INFO]: <Felipe> vortei
+[18:55:07] [Server thread/INFO]: <Felipe> é bom pra krl pra digestão
+[18:55:29] [Server thread/INFO]: <Felipe> tem algo
+[18:55:32] [Server thread/INFO]: <Felipe> pra eu fazer escudo?
+[18:55:38] [Server thread/INFO]: <Edim> ferro
+[18:55:45] [Server thread/INFO]: <Felipe> que mais
+[18:55:45] [Server thread/INFO]: <Edim> e madeira
+[18:56:03] [Server thread/INFO]: <Felipe> vou ali pegar
+[18:56:56] [Server thread/INFO]: <Edim> n
+[18:56:57] [Server thread/INFO]: <Edim> felps
+[18:57:00] [Server thread/INFO]: <Edim> essas n
+[18:57:01] [Server thread/INFO]: <Edim> pls
+[18:57:06] [Server thread/INFO]: <Edim> quero fazer uma floresta aq
+[18:57:19] [Server thread/INFO]: <Felipe> saquei
+[18:58:04] [Server thread/INFO]: <Edim> ja volt
+[18:59:20] [Server thread/INFO]: <Edim> conseguiu?
+[18:59:24] [Server thread/INFO]: <Felipe> s
+[19:00:10] [Server thread/INFO]: Gabs[/25.19.155.107:50446] logged in with entity id 44607 at (177.85135134174368, 71.0, 653.7852698651067)
+[19:00:10] [Server thread/INFO]: Gabs joined the game
+[19:00:41] [Server thread/INFO]: Gabs lost connection: Timed out
+[19:00:41] [Server thread/INFO]: Gabs left the game
+[19:01:06] [Server thread/INFO]: Gabs[/25.19.155.107:50454] logged in with entity id 44800 at (177.85135134174368, 71.0, 653.7852698651067)
+[19:01:06] [Server thread/INFO]: Gabs joined the game
+[19:01:21] [Server thread/INFO]: <Edim> querem discord?
+[19:01:25] [Server thread/INFO]: Gabs lost connection: Timed out
+[19:01:25] [Server thread/INFO]: Gabs left the game
+[19:01:32] [Server thread/INFO]: Gabs[/25.19.155.107:50472] logged in with entity id 44906 at (177.85135134174368, 71.0, 653.7852698651067)
+[19:01:32] [Server thread/INFO]: Gabs joined the game
+[19:01:54] [Server thread/INFO]: <Felipe> pra eu ouvir s
+[19:02:00] [Server thread/INFO]: <Edim> gabs?
+[19:02:02] [Server thread/INFO]: <Gabs> alo?
+[19:02:10] [Server thread/INFO]: <Gabs> ta mei meh a conqikaum
+[19:02:12] [Server thread/INFO]: <Edim> quer discord?
+[19:02:20] [Server thread/INFO]: <Gabs> 6 tão?
+[19:02:22] [Server thread/INFO]: <Edim> n
+[19:02:24] [Server thread/INFO]: <Felipe> m
+[19:02:26] [Server thread/INFO]: <Edim> mas se quiser entro
+[19:02:33] [Server thread/INFO]: <Edim> pq o nether é perigoso
+[19:02:44] [Server thread/INFO]: <Gabs> tabo peri
+[19:02:48] [Server thread/INFO]: <Felipe> edinho medroso
+[19:03:16] [Server thread/INFO]: Felipe has made the advancement [Enchanter]
+[19:03:56] [Server thread/INFO]: <Edim> vam?
+[19:04:21] [Server thread/INFO]: <Felipe> vam
+[19:04:22] [Server thread/INFO]: <Gabs> to om
+[19:04:27] [Server thread/INFO]: <Felipe> passa o disc
+[19:04:35] [Server thread/INFO]: Edim has made the advancement [Enchanter]
+[19:04:45] [Server thread/INFO]: <Gabs> dxo arranjar um machado
+[19:04:46] [Server thread/INFO]: <Felipe> usa lapis
+[19:04:49] [Server thread/INFO]: <Felipe> usa lapis azuli
+[19:04:56] [Server thread/INFO]: <Edim> to lgd
+[19:05:00] [Server thread/INFO]: <Felipe> ata
+[19:05:02] [Server thread/INFO]: <Edim> mas só tem encantamento bosta
+[19:05:03] [Server thread/INFO]: <Felipe> tem no meu bau
+[19:05:12] [Server thread/INFO]: <Felipe> vai demorar pra gnt arrumar livro
+[19:05:17] [Server thread/INFO]: <Edim> eu tenho
+[19:05:17] [Server thread/INFO]: <Felipe> ent encata
+[19:05:19] [Server thread/INFO]: <Edim> 14
+[19:05:19] [Server thread/INFO]: <Felipe> ent encanta
+[19:05:24] [Server thread/INFO]: <Edim> gabs
+[19:05:27] [Server thread/INFO]: <Edim> vam
+[19:05:32] [Server thread/INFO]: <Felipe> passa o discord
+[19:05:40] [Server thread/INFO]: <Gabs> alguem tem madeira?
+[19:05:43] [Server thread/INFO]: <Edim> n discord
+[19:05:46] [Server thread/INFO]: <Edim> nether
+[19:05:52] [Server thread/INFO]: <Gabs> https://discord.gg/ceYJp3
+[19:06:21] [Server thread/INFO]: <Edim> cade vc
+[19:06:25] [Server thread/INFO]: Felipe lost connection: Disconnected
+[19:06:25] [Server thread/INFO]: Felipe left the game
+[19:06:44] [Server thread/INFO]: <Gabs> to na frente da house do dan
+[19:07:11] [Server thread/INFO]: <Gabs> NA conexão
+[19:07:25] [Server thread/INFO]: <Gabs> peri edin
+[19:07:29] [Server thread/INFO]: <Gabs> xo ver meu fps
+[19:08:43] [Server thread/INFO]: <Gabs> dorm se quiser
+[19:09:20] [Server thread/INFO]: <Edim> vam gabs
+[19:09:29] [Server thread/INFO]: <Gabs> só fzr um maxadu
+[19:10:25] [Server thread/INFO]: <Gabs> edinows
+[19:10:30] [Server thread/INFO]: <Gabs> ond é o portal?
+[19:10:38] [Server thread/INFO]: <Edim> aq no terreno de cs
+[19:10:46] [Server thread/INFO]: <Gabs> ' - '
+[19:10:49] [Server thread/INFO]: Felipe[/25.102.179.24:54399] logged in with entity id 46427 at (107.5402200362591, 71.0, 586.0876171366416)
+[19:10:49] [Server thread/INFO]: Felipe joined the game
+[19:11:03] [Server thread/INFO]: <Edim> krl gabs
+[19:11:08] [Server thread/INFO]: <Edim> ta dificil ai
+[19:11:08] [Server thread/INFO]: Felipe lost connection: Timed out
+[19:11:08] [Server thread/INFO]: Felipe left the game
+[19:11:13] [Server thread/INFO]: <Gabs> ond sua house?
+[19:11:19] [Server thread/INFO]: Felipe[/25.102.179.24:54440] logged in with entity id 46548 at (108.8072319725835, 71.0, 586.567211746787)
+[19:11:19] [Server thread/INFO]: Felipe joined the game
+[19:11:24] [Server thread/INFO]: <Edim> no bloco de pedra
+[19:11:31] [Server thread/INFO]: <Gabs> akele bog?
+[19:11:34] [Server thread/INFO]: <Gabs> big*
+[19:11:37] [Server thread/INFO]: <Edim> s
+[19:11:54] [Server thread/INFO]: Felipe lost connection: Disconnected
+[19:11:54] [Server thread/INFO]: Felipe left the game
+[19:11:59] [Server thread/INFO]: <Edim> mds
+[19:12:10] [Server thread/INFO]: <Edim> se vai sem armor
+[19:12:13] [Server thread/INFO]: <Edim> sem nadA?
+[19:12:18] [Server thread/INFO]: <Gabs> eo morri umas 2 vezes
+[19:12:23] [Server thread/INFO]: <Gabs> n tenho mais nada
+[19:12:28] [Server thread/INFO]: <Gabs> to no trotos
+[19:12:35] [Server thread/INFO]: <Gabs> crl
+[19:12:47] [Server thread/INFO]: <Gabs> só buildar peri
+[19:13:38] [Server thread/INFO]: Felipe[/25.102.179.24:54683] logged in with entity id 46889 at (110.04042344568913, 71.0, 602.6158725847083)
+[19:13:38] [Server thread/INFO]: Felipe joined the game
+[19:13:45] [Server thread/INFO]: <Felipe> passa o link da sala ed
+[19:13:46] [Server thread/INFO]: <Edim> ta caindo felps
+[19:13:51] [Server thread/INFO]: <Edim> mas a gente n ta
+[19:13:53] [Server thread/INFO]: <Felipe> fechei dnv
+[19:14:31] [Server thread/INFO]: <Edim> vam gente
+[19:14:32] [Server thread/INFO]: <Gabs> discord edin
+[19:14:35] [Server thread/INFO]: <Edim> seis enrola dms
+[19:14:38] [Server thread/INFO]: <Gabs> tamo os 2
+[19:14:57] [Server thread/INFO]: <Felipe> edin entra no discord
+[19:15:28] [Server thread/INFO]: Felipe has made the advancement [We Need to Go Deeper]
+[19:15:28] [Server thread/INFO]: Gabs has made the advancement [We Need to Go Deeper]
+[19:17:03] [Server thread/INFO]: Felipe has made the advancement [A Terrible Fortress]
+[19:17:04] [Server thread/INFO]: Gabs has made the advancement [A Terrible Fortress]
+[19:18:20] [Server thread/INFO]: <Felipe> 77 68 -4
+[19:19:37] [Server thread/INFO]: <Felipe> quartzo
+[19:20:02] [Server thread/INFO]: <Felipe> dropo n
+[19:20:28] [Server thread/INFO]: Gabs has made the advancement [Into Fire]
+[19:20:34] [Server thread/INFO]: <Felipe> cade vcs
+[19:20:53] [Server thread/INFO]: <Felipe> cade vcs
+[19:21:27] [Server thread/INFO]: Edim withered away
+[19:22:17] [Server thread/INFO]: Felipe was slain by Wither Skeleton
+[19:27:11] [Server thread/INFO]: Gabs fell from a high place
+[19:31:01] [Server thread/INFO]: Felipe has made the advancement [Not Today, Thank You]
+[19:38:26] [Server thread/INFO]: Gabs lost connection: Disconnected
+[19:38:26] [Server thread/INFO]: Gabs left the game
+[19:41:02] [Server thread/INFO]: Felipe was burnt to a crisp whilst fighting Blaze
+[19:43:11] [Server thread/INFO]: Felipe tried to swim in lava
+[19:44:29] [Server thread/INFO]: Edim withered away
+[19:45:32] [Server thread/INFO]: Felipe tried to swim in lava to escape Wither Skeleton
+[19:46:31] [Server thread/INFO]: <Felipe> ja ta no nether?
+[19:47:42] [Server thread/INFO]: <Felipe> saiu do discord
+[19:48:02] [Server thread/INFO]: <Edim> cai
+[19:48:07] [Server thread/INFO]: <Edim> entra ai
+[19:51:09] [Server thread/INFO]: Felipe tried to swim in lava
+[19:52:41] [Server thread/INFO]: Gabs[/25.19.155.107:50669] logged in with entity id 56434 at (-41.4378880017867, 61.0, 36.69999998807907)
+[19:52:41] [Server thread/INFO]: Gabs joined the game
+[19:57:54] [Server thread/INFO]: Edim lost connection: Disconnected
+[19:57:54] [Server thread/INFO]: Edim left the game
+[19:59:57] [Server thread/INFO]: <Felipe> zzz
+[20:03:33] [Server thread/INFO]: Edim[/25.88.177.209:53212] logged in with entity id 58493 at (98.87556545688444, 71.5, 627.3916033735459)
+[20:03:33] [Server thread/INFO]: Edim joined the game
+[20:05:50] [Server thread/INFO]: Gabs lost connection: Disconnected
+[20:05:50] [Server thread/INFO]: Gabs left the game
+[20:07:08] [Server thread/INFO]: Gabs[/25.19.155.107:50754] logged in with entity id 59114 at (179.44631252016296, 72.0, 635.5368836726204)
+[20:07:08] [Server thread/INFO]: Gabs joined the game
+[20:09:10] [Server thread/INFO]: Felipe has made the advancement [Fishy Business]
+[20:09:27] [Server thread/INFO]: <Edim> caiu discord?
+[20:09:34] [Server thread/INFO]: <Gabs> nop
+[20:09:43] [Server thread/INFO]: <Gabs> ta esvutano n?
+[20:10:09] [Server thread/INFO]: Gabs lost connection: Timed out
+[20:10:09] [Server thread/INFO]: Gabs left the game
+[20:12:31] [Server thread/INFO]: Gabs[/25.19.155.107:50817] logged in with entity id 59837 at (179.55802331942834, 72.0, 653.3323977404838)
+[20:12:31] [Server thread/INFO]: Gabs joined the game
+[20:12:37] [Server thread/INFO]: <Gabs> man
+[20:12:48] [Server thread/INFO]: <Edim> discord
+[20:12:49] [Server thread/INFO]: <Gabs> pq n da pra usr discord no wifi
+[20:12:53] [Server thread/INFO]: <Gabs> n faz sentido
+[20:13:07] [Server thread/INFO]: <Edim> mas tava de boa
+[20:13:56] [Server thread/INFO]: <Gabs> perae clã, to tentando fzr funfar
+[20:15:52] [Server thread/INFO]: <Gabs> ou
+[20:15:57] [Server thread/INFO]: <Gabs> tem mta cana aki
+[20:16:03] [Server thread/INFO]: <Gabs> na frente da mia house
+[20:16:48] [Server thread/INFO]: <Gabs> eu tinha colhido
+[20:16:52] [Server thread/INFO]: <Gabs> ent ainda n tem mta
+[20:18:17] [Server thread/INFO]: Gabs lost connection: Timed out
+[20:18:17] [Server thread/INFO]: Gabs left the game
+[20:18:20] [Server thread/INFO]: Gabs[/25.19.155.107:50905] logged in with entity id 60765 at (169.24048475356295, 71.0, 643.2632957003635)
+[20:18:20] [Server thread/INFO]: Gabs joined the game
+[20:18:46] [Server thread/INFO]: Gabs lost connection: Disconnected
+[20:18:46] [Server thread/INFO]: Gabs left the game
+[20:19:02] [Server thread/INFO]: Gabs[/25.19.155.107:50926] logged in with entity id 60882 at (170.1545813087703, 71.0, 645.947679211914)
+[20:19:02] [Server thread/INFO]: Gabs joined the game
+[20:24:59] [Server thread/INFO]: Felipe has made the advancement [The Parrots and the Bats]
+[20:35:00] [Server thread/INFO]: <Felipe> zzzzzzzzzzzzzzz
+[20:35:08] [Server thread/INFO]: <Edim> zzzzzzzzzzzzzz
+[20:48:50] [Server thread/INFO]: Felipe has made the advancement [Best Friends Forever]
+[20:50:51] [Server thread/INFO]: Gabs lost connection: Disconnected
+[20:50:51] [Server thread/INFO]: Gabs left the game
+[20:52:44] [Server thread/INFO]: Gabs[/25.19.155.107:51078] logged in with entity id 67486 at (100.29999997466803, 71.5000002, 627.299999974668)
+[20:52:44] [Server thread/INFO]: Gabs joined the game
+[20:54:29] [Server thread/INFO]: Felipe fell from a high place
+[20:54:37] [Server thread/INFO]: Edim lost connection: Timed out
+[20:54:37] [Server thread/INFO]: Edim left the game
+[20:54:37] [Server thread/INFO]: Edim[/25.88.177.209:53459] logged in with entity id 67857 at (72.45210627211377, 180.0, 557.53636158525)
+[20:54:37] [Server thread/INFO]: Edim joined the game
+[20:57:50] [Server thread/INFO]: Dan[/25.1.220.15:51002] logged in with entity id 68226 at (172.32063407665677, 72.0, 603.9964979774016)
+[20:57:50] [Server thread/INFO]: Dan joined the game
+[20:58:22] [Server thread/INFO]: Dan lost connection: Timed out
+[20:58:22] [Server thread/INFO]: Dan left the game
+[20:58:32] [Server thread/INFO]: Dan[/25.1.220.15:51006] logged in with entity id 68394 at (169.74102356827194, 72.0, 606.335855899429)
+[20:58:32] [Server thread/INFO]: Dan joined the game
+[20:59:27] [Server thread/WARN]: Felipe moved too quickly! -0.2756510512574408,-11.523697618074237,-0.15150945278310246
+[20:59:30] [Server thread/INFO]: Felipe fell from a high place
+[21:02:22] [Server thread/INFO]: Dan fell from a high place
+[21:02:48] [Server thread/INFO]: Dan lost connection: Disconnected
+[21:02:48] [Server thread/INFO]: Dan left the game
+[21:10:09] [Server thread/INFO]: Gabs fell from a high place
+[21:19:28] [Server thread/INFO]: Gabs has made the advancement [Diamonds!]
+[21:20:52] [Server thread/INFO]: Felipe fell from a high place
+[21:21:37] [Server thread/INFO]: Felipe lost connection: Disconnected
+[21:21:37] [Server thread/INFO]: Felipe left the game
+[21:39:39] [Server thread/INFO]: Gabs lost connection: Disconnected
+[21:39:39] [Server thread/INFO]: Gabs left the game
+[21:39:41] [Server thread/INFO]: Edim lost connection: Disconnected
+[21:39:41] [Server thread/INFO]: Edim left the game
+[23:21:33] [Server thread/INFO]: Stopping server
+[23:21:33] [Server thread/INFO]: Saving players
+[23:21:33] [Server thread/INFO]: Saving worlds
+[23:21:33] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[23:21:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:21:33] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[23:21:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:21:33] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[23:21:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:21:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:21:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:21:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
